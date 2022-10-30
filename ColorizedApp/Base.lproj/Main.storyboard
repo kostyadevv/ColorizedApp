@@ -84,7 +84,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="xNN-b2-f1V">
                                         <rect key="frame" x="108" y="0.0" width="246" height="144"/>
                                         <subviews>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="93U-Kt-TYL">
+                                            <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="93U-Kt-TYL">
                                                 <rect key="frame" x="-2" y="0.0" width="250" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="246" id="KPq-Z2-sPo"/>
@@ -102,7 +102,7 @@
                                                     <action selector="sliderActionGreen" destination="BYZ-38-t0r" eventType="valueChanged" id="LBZ-Vm-Sau"/>
                                                 </connections>
                                             </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="M81-BH-kAS">
+                                            <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="M81-BH-kAS">
                                                 <rect key="frame" x="-2" y="114" width="250" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="246" id="2jI-WT-vog"/>
