@@ -33,12 +33,17 @@ class ViewController: UIViewController {
 // MARK: - IB Actions
 
     @IBAction func sliderActionRed() {
+        valueRed.text = sliderRed.value.formatted()
+        colorView.backgroundColor = colorView.backgroundColor?
     }
     
     @IBAction func sliderActionGreen() {
+        valueGreen.text = sliderGreen.value.formatted()
     }
     
     @IBAction func sliderActionBlue() {
+        valueBlue.text = sliderBlue.value.formatted()
+      
     }
 }
 
